@@ -1,2 +1,2 @@
-# Just_Run_CSS
-Practice Python Coding
+# Just_Run_HTML_CSS
+Practice HTML&CSS Coding
