@@ -1,0 +1,33 @@
+<!-- 선택자 뒤 태그를 지칭하여 후손 선택 가능 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header  h1 {color : red;}   /* id header의 h1 태그와 후손 h1태그를 지칭 */
+        #header > h1 {color : blue;}    /* 자손 선택자 >  */
+        #section h1 {color : orange;} /* id 스페이스바 선택할 태그 */
+        #section > p {color : green;} /* id > 선택할 태그 */
+        
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1 class = "title">Lorem ipsum</h1>
+        <div id ="nav">
+            <h1>Navigation</h1>
+        </div>
+    </div>
+
+    <div id="section">
+        <h1 class="title">Lorem ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    
+</body>
+</html>
